@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.relative{
+    position:relative;
+    border: 1px solid black;
+    top: 40px;
+    left: 40px;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+.Scroll {
+    height: 900px;
+}

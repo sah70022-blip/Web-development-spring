@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Feedback Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="feedback.html">Feedback</a>
+    </div>
+
+    <div class="main-content">
+
+        <h2 class="sticky-heading">Feedback Form</h2>
+
+        <form class="content-box">
+
+            <!-- Full Name -->
+            <label>Full Name:</label><br>
+            <input type="text"
+                   name="fullname"
+                   placeholder="Enter your full name"
+                   required
+                   minlength="3"><br><br>
+
+            <!-- Email -->
+            <label>Email Address:</label><br>
+            <input type="email"
+                   name="email"
+                   placeholder="Enter your email"
+                   required><br><br>
+
+            <!-- Rating -->
+            <label>Rating:</label><br>
+
+            <input type="radio" name="rating" required>
+            Very Satisfied<br>
+
+            <input type="radio" name="rating">
+            Satisfied<br>
+
+            <input type="radio" name="rating">
+            Neutral<br>
+
+            <input type="radio" name="rating">
+            Unsatisfied<br><br>
+
+            <!-- Interests -->
+            <label>Interests:</label><br>
+
+            <input type="checkbox" name="interest">
+            Web Development<br>
+
+            <input type="checkbox" name="interest">
+            Mobile Development<br>
+
+            <input type="checkbox" name="interest">
+            AI & Machine Learning<br><br>
+
+            <!-- Country -->
+            <label>Country:</label><br>
+
+            <select required>
+                <option value="">Select Country</option>
+                <option>Nepal</option>
+                <option>India</option>
+                <option>USA</option>
+            </select><br><br>
+
+            <!-- Feedback -->
+            <label>Write your feedback here:</label><br>
+
+            <textarea
+                rows="5"
+                cols="30"
+                maxlength="200"
+                placeholder="Write your feedback..."></textarea><br><br>
+
+            <!-- Submit -->
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+</body>
+</html>

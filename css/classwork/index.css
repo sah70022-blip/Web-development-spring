@@ -1,0 +1,13 @@
+.container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 60px;
+}
+
+.container a {
+    color: white;
+    text-decoration: none;
+}
